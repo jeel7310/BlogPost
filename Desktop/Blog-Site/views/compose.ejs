@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") -%>
+<h4 style="font-weight: bold;padding-top: 10px;padding-bottom: 10px;padding-left: 22px;" >Compose Your Own Blog </h4>
+<form action="/compose" method="post">
+    <div class="form-group" >
+        <div class="input-container">
+            <label for="user-input">Title</label>
+            <input name="postTitle" type="text" id="user-input" class="beautiful-input" placeholder="Enter Significant Title here...">
+        </div>
+        <div class="textarea-container">
+            <label for="user-textarea">Blog</label>
+            <textarea name="postBody" id="user-textarea" class="beautiful-textarea" placeholder="Write Your Blog here..."></textarea>
+        </div>
+    </div>
+    <div style="padding-left: 21px;" >
+        <button type="submit" class="beautiful-button">Publish</button>
+    </div>
+</form>

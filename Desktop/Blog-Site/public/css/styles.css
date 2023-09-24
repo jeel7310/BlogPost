@@ -1,0 +1,147 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: hsl(235, 100%, 50%) !important;
+}
+
+.postTitle{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.background-image {
+    background-image: url('https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/01/21143416/8-Types-of-Health-Information-Technology-Healthcare-Software-System.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire div with the background image */
+    background-position: center center; /* Center the background image */
+    opacity: 0.2; /* Set the opacity to make it semi-transparent (0.5 = 50% opacity) */
+    position: absolute; /* Position the div absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the background behind other content */
+  }
+
+ /* Define the initial button style */
+.beautiful-button {
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Gradient background */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; /* Add smooth transitions for background and scale */
+  }
+  
+  /* Define the button style on hover */
+  .beautiful-button:hover {
+    background: linear-gradient(to bottom, #e74c3c, #c0392b); /* New gradient background on hover */
+    transform: scale(1.05); /* Scale the button slightly on hover */
+  }
+
+  /* Style the input container */
+.input-container {
+    margin: 20px;
+  }
+  
+  /* Style the input label */
+  label {
+    display: block; /* Place label on a new line */
+    margin-bottom: 5px; /* Add some space below the label */
+    color: #333; /* Label text color */
+  }
+  
+  /* Style the input field */
+  .beautiful-input {
+    width: 100%; /* Make the input field take up the full width of its container */
+    padding: 10px; /* Add padding to the input field */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    transition: border-color 0.3s; /* Add a transition for the border color */
+  }
+  
+  /* Style the input field on focus (when clicked) */
+  .beautiful-input:focus {
+    border-color: #3498db; /* Change border color on focus */
+    outline: none; /* Remove the default outline */
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5); /* Add a subtle box shadow */
+  }
+
+  /* Style the textarea container */
+.textarea-container {
+    margin: 20px;
+  }
+  
+  /* Style the textarea label */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style the textarea */
+  .beautiful-textarea {
+    width: 100%;
+    height: 150px; /* Set the desired height for the textarea */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    resize: none; /* Disable textarea resizing */
+    transition: border-color 0.3s;
+  }
+  
+  /* Style the textarea on focus (when clicked) */
+  .beautiful-textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(52, 152, 219, 0.5);
+  }
+
+  /* Style the navigation bar */
+.medical-navbar {
+    background-color: #3498db; /* Navbar background color */
+    overflow: hidden;
+  }
+  
+  .medical-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .medical-navbar li {
+    display: inline;
+    margin: 0 20px; /* Adjust horizontal spacing between menu items */
+  }
+  
+  /* Style the navigation links */
+  .medical-navbar a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+  }
+  
+  /* Style the navigation links on hover */
+  .medical-navbar a:hover {
+    background-color: #0a7d1a; /* Change background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+  }
+  
+  
